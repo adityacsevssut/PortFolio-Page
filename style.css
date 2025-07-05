@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  overflow: hidden;
+  background-color: #111;
+  color: #fff;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  transition: transform 0.8s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  transform-style: preserve-3d;
+}
+.slide {
+  flex: 0 0 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  border-bottom: 1px solid #333;
+  padding: 40px;
+  text-align: center;
+}
+.slide h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: skyblue;
+}
+.slide p {
+  max-width: 600px;
+  line-height: 1.6;
+  color: #ccc;
+}
+.nav-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nav-buttons button {
+  padding: 10px 20px;
+  background: skyblue;
+  color: #111;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav-buttons button:hover {
+  background: white;
+}
+.card {
+  width: 200px;
+  height: 200px;
+  border: 2px solid rgba(112, 111, 111, 0.507);
+  display: inline-block;
+  margin: 20px;
+  padding: 0px;
+  text-align: center;
+  background-color: #121212;
+  border-radius: 20px;
+  box-shadow: 10px 15px 5px 121212;
+  transition: 1s;
+}
+
+img {
+  width: 50%;
+}
+.desc {
+  background-color: #232323;
+  color: white;
+}
+.card:hover {
+  box-shadow: 10px 10px 2px rgba(112, 111, 111, 0.507);
+  transform: scale(1.1);
+}
+.merge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para {
+  border: 1px solid rgba(112, 111, 111, 0.507);
+  border-bottom-right-radius: 30px;
+  height: 200px;
+  width: 700px;
+  padding-top: 20px;
+}
+.para:hover {
+  background-color: #232323;
+}
+.skillBox {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.cardSkill {
+  height: 80px;
+  width: 130px;
+  border: 1px solid rgba(112, 111, 111, 0.507);
+  padding-top: 10px;
+  border-radius: 20px;
+  background-color: #1c1c1c;
+  transition: 1s;
+}
+.cardSkill:hover {
+  background-color: #111;
+  box-shadow: 10px 10px 2px rgba(112, 111, 111, 0.507);
+  transform: scale(1.1);
+}
+.adProjects {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.projects1 {
+  height: 80px;
+  width: 130px;
+  border: 1px solid rgba(112, 111, 111, 0.507);
+  padding-top: 10px;
+  border-radius: 20px;
+  background-color: #1c1c1c;
+  transition: 1s;
+  margin: 30px;
+  
+ 
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: red;
+}
+.exp{
+  display: flex;
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+}
+.experience{
+  height: 200px;
+  width: 300px;
+  margin:30px;
+   border: 1px solid rgba(112, 111, 111, 0.507);
+  padding-top: 10px;
+  border-radius: 20px;
+  background-color: #1c1c1c;
+  transition: 1s;
+  margin: 100px;
+}
+#exp{
+  height: 270px;
+  width:330px ;
+}
+#exp1 {
+  height: 100px;
+  width: 300px;
+}
+.experience:hover{
+  background-color: #111;
+  box-shadow: 10px 10px 2px rgba(112, 111, 111, 0.507);
+  transform: scale(1.1);
+}
+.edu{
+  height: 100px;
+  width: 500px;
+  border: 1px solid rgba(112, 111, 111, 0.507);
+  padding-top: 10px;
+  border-radius: 20px;
+  background-color: #1c1c1c;
+  transition: 1s;
+  
+}
+.edu:hover{
+   background-color: #111;
+  box-shadow: 10px 10px 2px rgba(112, 111, 111, 0.507);
+  transform: scale(1.1);
+}
